@@ -14,7 +14,7 @@ global.gopay = '087892711054'
 
 //=============『 Info Bot 』=================//
 global.namebot = 'karyl-bot'
-global.gc = 'https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV'
+global.gc = 'https://chat.whatsapp.com/BYcW7rue6fA8gNdyLPedDe'
 global.web = 'https://hyzerr-apii.herokuapp.com' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.price1 = '1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
 
