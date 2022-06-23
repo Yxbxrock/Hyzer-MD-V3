@@ -35,9 +35,9 @@ global.wait = '_*tunggu sedang di proses...*_'
 global.eror = '_*Server Error*_'
 global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
-global.stiker_wait = 'Stiker sedang dibuat'
+global.stiker_wait = ''
 global.packname = 'Created By'
-global.author = 'karyl-bot'
+global.author = 'Karyl Bot'
 
 //=============『 Apikey 』================== //
 global.APIs = { // API Prefix
