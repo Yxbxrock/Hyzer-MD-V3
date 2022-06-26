@@ -6,7 +6,7 @@ let handler = async (m, { conn }) => {
   if (!json.url) throw 'Error!'
   conn.sendFile(m.chat, json.url, '', 'sange kok ama kartun', m, 0, { thumbnail: Buffer.alloc(0) })
 }
-handler.help = ['hentai']
+handler.help = ['waifunsfw']
 handler.tags = ['anime']
 handler.command = /^(hentai|waifunsfw)$/i
 
