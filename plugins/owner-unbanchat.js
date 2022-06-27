@@ -23,7 +23,10 @@ let handler = async (m, { isOwner, text, isAdmin }) => {
   }
 }
 handler.help = ['unban']
-handler.tags = ['owner', 'group']
+handler.tags = ['owner']
 handler.command = /^unban(chat)?$/i
+handler.owner = true
+
+
 
 module.exports = handler
