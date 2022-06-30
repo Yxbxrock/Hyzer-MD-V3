@@ -4,7 +4,7 @@ let handler = async (m, { conn }) => {
   if (!res.ok) throw 'Error Website sedang down'
   let json = await res.json()
   if (!json.url) throw 'Error!'
-  conn.sendButtonImg(m.chat, hyzer, teksfoto, wm2, 'NEXT', '.waifunsfw', m)
+  conn.sendButtonImg(m.chat, wm2, 'NEXT', '.waifunsfw', m)
 }
 handler.help = ['waifunsfw']
 handler.tags = ['anime']
