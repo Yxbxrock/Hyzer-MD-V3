@@ -25,7 +25,7 @@ let handler = async (m, { conn }) => {
 handler.help = ['boost', 'refresh']
 handler.tags = ['info']
 handler.command = /^boost|refresh/i
-handler.mods = false
+handler.mods = true
 handler.premium = false
 handler.group = false
 handler.private = false
