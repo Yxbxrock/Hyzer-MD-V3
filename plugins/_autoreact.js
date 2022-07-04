@@ -18,6 +18,6 @@ module.exports = handler
 function pickRandom(list) {
    return list[Math.floor(Math.random() * list.length)]
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
+
+
+
