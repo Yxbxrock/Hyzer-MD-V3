@@ -430,7 +430,7 @@ module.exports = {
                     isBanned: false,
                     welcome: true,
                     detect: false,
-                    sWelcome: 'Hai, Selamat datang di Group\n@subject\n\n@desc',
+                    sWelcome: 'Hai, ${ye} Selamat datang di Group\n@subject\n\n@desc',
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
