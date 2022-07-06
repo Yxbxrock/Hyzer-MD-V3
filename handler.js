@@ -430,8 +430,8 @@ module.exports = {
                     isBanned: false,
                     welcome: true,
                     detect: false,
-                    sWelcome: `Hai, @${participant.split`@`[0]} Selamat datang di Group\n@subject\n\n@desc`,
-                    sBye: '',
+                    sWelcome: 'Hai, @user Selamat datang di Group\n@subject\n\n@desc',
+                    sBye: 'Bye @user 👋',
                     sPromote: '',
                     sDemote: '',
                     delete: true,
@@ -706,7 +706,7 @@ module.exports = {
                             pp = await this.profilePictureUrl(user, 'image')
                         } catch (e) {
                         } finally {
-                            text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', this.getName(id)).replace('@desc', groupMetadata.desc.toString()) :
+                            text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', groupMetadata.subject).replace('@desc', groupMetadata.desc.toString()) :
                                 (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0])
                                 this.sendButtonImg(id, pp, text, "Group Message", "Y", "huuu", null)
                                 }
