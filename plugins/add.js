@@ -1,6 +1,6 @@
 const timeout = 60000
 let handler = async (m, { conn, text, participants, usedPrefix, command }) => {
-	if (!text) throw 'Masukin nomornya bgsd!'
+	if (!text) throw 'Masukkan nomor!'
 	let chat = db.data.chats[m.chat]
 	let time = chat.add + timeout
 	if (new Date - chat.add < timeout) throw `_Command ini masih cooldown!_\nsilahkan tunggu selama *${conn.msToDate(time - new Date())}* lagi!`
