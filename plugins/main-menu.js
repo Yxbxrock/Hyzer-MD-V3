@@ -412,7 +412,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
          hydratedTemplate: {
            hydratedContentText: text.trim(),
            locationMessage: { 
-           jpegThumbnail: fs.readFileSync('./src/welcome.jpg') },
+           jpegThumbnail: fs.readFileSync('./media/karyl.jpg') },
            hydratedFooterText: wm,
            hydratedButtons: [{
             urlButton: {
