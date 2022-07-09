@@ -15,7 +15,7 @@ Terdeteksi *${name}* telah mengirim virtex!
 Maaf Kamu akan dikick dari grup ini!
 `.trim(), m)
 
-    this.groupRemove(m.chat, [m.sender])
+    this.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
   } else return false
 }
 handler.group = true
