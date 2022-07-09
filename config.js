@@ -1,7 +1,7 @@
 //=============『 Utama 』================== //
 global.owner = ['6282365089294'] 
 global.mods = [] 
-global.prems = [] 
+global.prems = ['6282365089294' ,'6289630810886'] 
 
 //=============『 Info Owner 』============== //
 global.nameowner = 'Owner Karyl Bot'
@@ -14,7 +14,7 @@ global.gopay = 'gada akunnya :('
 
 //=============『 Info Bot 』=================//
 global.namebot = 'Karyl Bot'
-global.gc = 'https://chat.whatsapp.com/J01ENpARIMs8LvwaRM9LIm'
+global.gc = 'https://chat.whatsapp.com/L6mF44apLHBKMSF8Fopfyj'
 global.web = 'https://youtu.be/QB7ACr7pUuE' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.price1 = '1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
 
@@ -23,7 +23,7 @@ global.fotonya1 = 'https://telegra.ph/file/e4a2f4339da8a32ad20a1.jpg' //ganti ja
 global.fotonya2 = 'https://telegra.ph/file/8c471d45b6cedad43cf84.jpg' //ini juga ganti 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = 'karyl-bot'
+global.wm = 'Karyl Bot'
 global.watermark = wm
 global.wm2 = 'Karyl Bot'
 global.wm3 = 'Karyl Bot'
