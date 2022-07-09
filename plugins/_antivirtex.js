@@ -6,7 +6,7 @@ handler.before = function (m, { user, text }) {
   let chat = global.db.data.chats[m.chat]
   let name = this.getName(m.sender)
 
-  if (chat.antivirtex && text > 2000) {
+  if (chat.antiVirtex && text > 2000) {
     this.reply(m.chat `
 *「 ANTI VIRTEX 」*
 
