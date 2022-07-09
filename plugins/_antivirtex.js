@@ -19,6 +19,6 @@ Maaf Kamu akan dikick dari grup ini!
   } else return false
 }
 handler.group = true
-handler.register = true
+handler.owner = false
 
 module.exports = handler
