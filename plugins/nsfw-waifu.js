@@ -12,6 +12,6 @@ handler.command = /^(hentai|waifunsfw)$/i
 
 handler.limit = true
 handler.nsfw = true
-handler.private = false
+handler.premium = true
 
 module.exports = handler
