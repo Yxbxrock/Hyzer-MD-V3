@@ -16,7 +16,7 @@ Maaf Kamu akan dikick dari grup ini!
 `.trim(), m)
 
     this.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
-  } else return false
+  }
 }
 handler.group = true
 handler.owner = false
