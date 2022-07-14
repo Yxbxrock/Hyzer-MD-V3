@@ -10,7 +10,7 @@ conn.sendFile(m.chat, helloarie, '', '', m, true)
 handler.customPrefix = /^(ara-ara|ara ara)$/i
 handler.command = new RegExp
 
-handler.limit = true
+handler.limit = false
 handler.mods = false 
 handler.premium = false
 handler.group = false
