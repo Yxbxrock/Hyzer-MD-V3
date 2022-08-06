@@ -4,16 +4,16 @@ global.mods = []
 global.prems = ['6282365089294' ,'6289630810886'] 
 
 //=============『 Info Owner 』============== //
-global.nameowner = 'Owner Karyl Bot'
+global.nameowner = 'Owner XyBotz'
 global.numberowner = '6289630810886'
 global.instagram = 'https://instagram.com/yxbxrock'
 global.github = 'https://github.com/Yxbxrock'
 global.dana = '082365089284'
 global.pulsa = '082365089294'
-global.gopay = 'gada akunnya :('
+global.gopay = '-'
 
 //=============『 Info Bot 』=================//
-global.namebot = 'Karyl Bot'
+global.namebot = 'XyBotz'
 global.gc = 'https://chat.whatsapp.com/L6mF44apLHBKMSF8Fopfyj'
 global.web = 'https://youtu.be/QB7ACr7pUuE' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.price1 = '1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
@@ -23,10 +23,10 @@ global.fotonya1 = 'https://telegra.ph/file/e4a2f4339da8a32ad20a1.jpg' //ganti ja
 global.fotonya2 = 'https://telegra.ph/file/8c471d45b6cedad43cf84.jpg' //ini juga ganti 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = 'Karyl Bot'
+global.wm = 'XyBotz'
 global.watermark = wm
-global.wm2 = 'Karyl Bot'
-global.wm3 = 'Karyl Bot'
+global.wm2 = 'XyBotz'
+global.wm3 = 'XyBotz'
 global.htki = '––––––『' 
 global.htka = '』––––––'
 global.media = 'https://telegra.ph/file/72168c6f1aaa90315c369.jpg'
@@ -37,7 +37,7 @@ global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = ''
 global.packname = 'Created By'
-global.author = 'Karyl Bot'
+global.author = 'XyBotz'
 
 //=============『 Apikey 』================== //
 global.APIs = { // API Prefix
