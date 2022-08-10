@@ -8,7 +8,7 @@ global.nameowner = 'Owner XyzeBot'
 global.numberowner = '6289630810886'
 global.instagram = 'https://instagram.com/yxbxrock'
 global.github = 'https://github.com/Yxbxrock'
-global.dana = '082365089284'
+global.dana = '082365089294'
 global.pulsa = '082365089294'
 global.gopay = '-'
 
