@@ -6,12 +6,12 @@ let handler = async (m, { conn }) => {
   if (!json.url) throw 'Error!'
 conn.sendButtonImg(m.chat, json.url, "sange kok ama kartun", "Karyl Bot", 'Next', ".waifunsfw", m)
 }
-handler.help = ['waifunsfw']
-handler.tags = ['anime']
+handler.help = ['hentai']
+handler.tags = ['nsfw']
 handler.command = /^(hentai|waifunsfw)$/i
 
 handler.limit = true
 handler.nsfw = true
-handler.premium = true
+handler.private = true
 
 module.exports = handler
