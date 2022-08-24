@@ -8,6 +8,6 @@ handler.command = /^(lolinsfw)$/i
 handler.limit = true
 handler.group = false
 handler.nsfw = true
-handler.premium = true
+handler.private = true
 
 module.exports = handler
