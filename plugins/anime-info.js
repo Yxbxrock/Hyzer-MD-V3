@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 let handler = async(m, { conn, text }) => {
   if (!text) throw `Masukkan query!`
-  let res = await fetch(global.API('https://api.jikan.moe', '/v3/search/anime', { q: text }))
+  let res = await fetch(global.API('https://api.jikan.moe', '/v4/search/anime', { q: text }))
   if (!res.ok) throw await res.text()
   let json = await res.json()
   let { title, members, synopsis, episodes, url, rated, score, image_url, type, start_date, end_date } = json.results[0]
